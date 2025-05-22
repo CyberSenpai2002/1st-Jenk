@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'cybersenpai/1stJenk' 
+        IMAGE_NAME = 'cybersenpai/1stjenk' 
         IMAGE_TAG = "latest"
         DOCKERHUB_CREDS = credentials('dockerhub-creds')
     }
